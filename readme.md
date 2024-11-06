@@ -7,6 +7,7 @@ a smoke shader based on [this presentation](https://youtu.be/aYZEmaQUrAo?t=22m11
 
 You will create a Unity project and make within it a Shader Graph
 shader to turn a cylinder mesh into a cloud of smoke.
+__Make sure it's the Universal Render Pipeline version so you don't need to import the shader graph package.__
 
 When you create the project, you should import at least the cylinder OBJ file provided below. You should also follow these steps to make a custom shader graph:
 - Right click -> Create -> Shader Graph -> BuiltIn -> Unlit
