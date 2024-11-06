@@ -20,7 +20,7 @@ the shader uses transparency by going to:
 We have a few assets that you can use in the project:
 - A [mesh](smoke_cylinder.obj) on which to use your smoke material.
 - A [Perlin noise generator](http://kitfox.com/projects/perlinNoiseMaker/) you can use to make a tiled noise texture to sample when displacing
-your vertices. For an even smokier look, try making several different noise textures with different frequencies, and animate them at different speeds.
+your vertices. __Check the Color option to make a texture with different values for R, G, and B so that you can displace differently along the X, Y, and Z axes.__ For an even smokier look, try making several different noise textures with different frequencies, and animate them at different speeds.
 - A [black-white gradient texture](smoke_gradient.png) you may use to adjust the intensity of your vertex displacement and/or alter your mesh's transparency.
 
 
